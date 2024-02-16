@@ -6,4 +6,5 @@
 
 ### Adições
 
-- Adicionando configurações do ESlint e Prettier
+- Adicionado configurações do ESlint e Prettier
+- Adicionado estrutura do layout
