@@ -8,6 +8,7 @@
 
 - Adicionado campo de busca e logo
 - Adicionado menu de navegação
+- Adicionado perfil do usuário
 
 ## 16/02/2024
 
