@@ -1,5 +1,13 @@
 # Histórico de Alterações
 
+## 17/02/2024
+
+## APP
+
+### Adições
+
+- Adicionado campo de busca e logo
+
 ## 16/02/2024
 
 ## APP
