@@ -1,5 +1,13 @@
 # Histórico de Alterações
 
+## 18/02/2024
+
+## APP
+
+### Adições
+
+- Adicionado abas
+
 ## 17/02/2024
 
 ## APP
