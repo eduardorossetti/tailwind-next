@@ -3,10 +3,10 @@ import { LogOut } from 'lucide-react'
 /* eslint-disable @next/next/no-img-element */
 export function Profile() {
   return (
-    <div className="grid-cols-profile grid items-center gap-3">
+    <div className="grid grid-cols-profile items-center gap-3">
       <img
         src="https://github.com/eduardorossetti.png"
-        className="w-10 w-10 rounded-full"
+        className="h-10 w-10 rounded-full"
         alt=""
       />
       <div className="flex flex-col truncate">

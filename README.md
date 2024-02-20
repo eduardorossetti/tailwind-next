@@ -1,5 +1,21 @@
 # Histórico de Alterações
 
+## 20/02/2024
+
+## APP
+
+### Adições
+
+- Adicionado componentes do formulário
+
+## 18/02/2024
+
+## APP
+
+### Adições
+
+- Adicionado abas
+
 ## 18/02/2024
 
 ## APP
