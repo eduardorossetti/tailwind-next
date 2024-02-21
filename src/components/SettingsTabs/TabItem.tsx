@@ -1,4 +1,5 @@
 'use client'
+
 import { motion } from 'framer-motion'
 import * as Tabs from '@radix-ui/react-tabs'
 
@@ -11,10 +12,12 @@ interface TabItemProps {
 export function TabItem({ title, value, isSelected = false }: TabItemProps) {
   return (
     <Tabs.Trigger
-      className="relative px-1 pb-4 text-sm font-medium text-zinc-500 hover:text-violet-700 data-[state=true]:text-violet-700"
+      className=":px-1 group relative pb-4 text-sm font-medium text-zinc-500 outline-none hover:text-violet-700 data-[state=active]:text-violet-700"
       value={value}
     >
-      <span>{title}</span>
+      <span className="rounded group-focus-visible:ring-2 group-focus-visible:ring-violet-400 group-focus-visible:ring-offset-4">
+        {title}
+      </span>
       {isSelected && (
         <motion.div
           layoutId="activeTab"
