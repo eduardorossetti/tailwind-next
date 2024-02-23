@@ -8,6 +8,7 @@
 
 - Adicionado animações e melhorias na acessibilidade
 - Adicionado variantes de slots nos componentes
+- Adicionado melhorias na responsividade da aplicação
 
 ## 20/02/2024
 
