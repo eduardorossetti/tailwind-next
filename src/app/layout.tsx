@@ -1,24 +1,30 @@
+import { Sidebar } from '@/components/Sidebar'
+import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
-import { Sidebar } from '@/components/Sidebar'
+import { twMerge } from 'tailwind-merge'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Tailwind Next',
-  description: 'Example of using TailwindCSS and NextJS',
+  title: 'TailwidndCSS Next.js Starter',
+  description: 'A starter template for TailwindCSS and Next.js',
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en" className="antialiased">
       <body className={inter.className}>
-        <div className="min-h-screen lg:grid lg:grid-cols-app">
+        <div
+          className={twMerge(
+            'min-h-screen lg:grid lg:grid-cols-app',
+            'dark:bg-zinc-900',
+          )}
+        >
           <Sidebar />
           <main className="max-w-[100vw] px-4 pb-12 pt-24 lg:col-start-2 lg:px-8 lg:pt-8">
             {children}

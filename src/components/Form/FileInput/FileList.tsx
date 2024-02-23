@@ -1,8 +1,8 @@
 'use client'
 
+import { useFileInput } from './Root'
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { FileItem } from './FileItem'
-import { useFileInput } from './Root'
 
 export function FileList() {
   const { files } = useFileInput()
